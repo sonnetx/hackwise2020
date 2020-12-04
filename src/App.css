@@ -1,0 +1,66 @@
+/* component styles*/
+#Header {
+  background-color: rgba(53, 13, 139, 0.73);
+  height: 5%;
+}
+
+#Footer {
+  background-color: rgba(0, 13, 139, 0.2);
+  height: 5%;
+}
+
+#Options {
+  background-color: rgba(123, 100, 100, 0.2);
+  width: 100%;
+  height: 35%;
+}
+
+#MainMenu {
+  background-color: rgba(123, 10, 10, 0.2);
+  width: 100%;
+  height: 65%;
+}
+
+#ActionScreen {
+  background-color: rgba(53, 133, 139, 0.73);
+  width: 100%;
+  height: 100%;
+}
+
+
+/* wrappers */
+
+#App {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(123, 13, 139, 0.2);
+  height: 100vh;
+  width: 100vw;
+}
+
+#AppScreenWrapper {
+  display: flex;
+  flex-direction: row;
+  height: 90%;
+  width: 100%;
+}
+
+#MenuWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 35%;
+}
+
+#ActionScreenWrapper {
+  height: 100%;
+  width: 65%;
+}
+
+
+/* html and body */
+
+body,html {
+  margin: 0;
+  padding: 0;
+}

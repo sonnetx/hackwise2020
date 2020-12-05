@@ -19,16 +19,19 @@ const MainMenu = () => {
       this is main menu
       <button
       onClick = {handleCatClick}
+      className = 'MainMenuButton'
       >
         Cat's room
       </button>
       <button
       onClick = {handleDiaryClick}
+      className = 'MainMenuButton'
       >
         Write something in a diary
       </button>
       <button
       onClick = {handleHelpClick}
+      className = 'MainMenuButton'
       >
         Help
       </button>

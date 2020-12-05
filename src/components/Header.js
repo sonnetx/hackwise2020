@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import Logo from '../img/Logo.jpg';
 
 const Header = () => {
   // different buttons should be visible in header
@@ -13,19 +14,28 @@ const Header = () => {
   // more handlers to add...
   return (
     <div id = 'Header'>
-      this is header
+      <img src = {Logo} alt = {`Simon's Cat`}/>
+      <div id = 'HeaderText'>
+        <b>Hubby the Cat</b>
+     </div>
       <button
       onClick = {() => console.log('...')}
+      className = 'HeaderButton'
+      id = 'SignUpButton'
       >
         sign up
       </button>
       <button
       onClick = {handleLoginClick}
+      className = 'HeaderButton'
+      id = 'LoginButton'
       >
         log in
       </button>
       <button
       onClick = {() => console.log('...')}
+      className = 'HeaderButton'
+      id = 'LogoutButton'
       >
         log out
       </button>

@@ -6,13 +6,9 @@ import Options from './Options'
 const AppScreen = () => {
   return (
     <div id = 'AppScreenWrapper'>
-      <div id = 'MenuWrapper'>
-        <MainMenu />
-        <Options />
-      </div>
-      <div id = 'ActionScreenWrapper'>
-        <ActionScreen />
-      </div>
+      <MainMenu />
+      <Options />
+      <ActionScreen />
     </div>
   )
 }

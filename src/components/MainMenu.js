@@ -39,7 +39,7 @@ const MainMenu = () => {
       className = 'MainMenuButton'
       id = 'Achievements'
       >
-        Achiements
+        Achievements
       </button>
       <button
       onClick = {handleHelpClick}

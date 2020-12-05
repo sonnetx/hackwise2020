@@ -29,7 +29,7 @@ const Options = () => {
         </button>
       </div>
       <div id = 'Help'>
-        <h3>Diary Options</h3>
+        <h3>Help Options</h3>
         <button onClick = {() => console.log("This option is responsible for showing how to use the cat screen")}>
           Cat room
         </button>

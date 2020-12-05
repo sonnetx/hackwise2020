@@ -23,21 +23,23 @@ const Header = () => {
       className = 'HeaderButton'
       id = 'SignUpButton'
       >
-        sign up
+        Sign up
       </button>
-      <button
-      onClick = {handleLoginClick}
-      className = 'HeaderButton'
-      id = 'LoginButton'
-      >
-        log in
-      </button>
+
       <button
       onClick = {() => console.log('...')}
       className = 'HeaderButton'
       id = 'LogoutButton'
       >
-        log out
+        Logout
+      </button>
+
+      <button
+      onClick = {handleLoginClick}
+      className = 'HeaderButton'
+      id = 'LoginButton'
+      >
+        Login
       </button>
     </div>
   )

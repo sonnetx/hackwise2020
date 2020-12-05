@@ -14,24 +14,37 @@ const MainMenu = () => {
     console.log('this button is responsible for showing help on action screen, option menu is empty at that point')
   }
 
+  const handleAchievementsClick= () => {
+    console.log('achievements')
+  }
+
   return (
     <div id = 'MainMenu'>
-      this is main menu
       <button
       onClick = {handleCatClick}
       className = 'MainMenuButton'
+      id = 'CatRoom'
       >
         Cat's room
       </button>
       <button
       onClick = {handleDiaryClick}
       className = 'MainMenuButton'
+      id = 'Diary'
       >
         Write something in a diary
       </button>
       <button
+      onClick = {handleAchievementsClick}
+      className = 'MainMenuButton'
+      id = 'Achievements'
+      >
+        Achiements
+      </button>
+      <button
       onClick = {handleHelpClick}
       className = 'MainMenuButton'
+      id = 'Help'
       >
         Help
       </button>

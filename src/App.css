@@ -34,14 +34,17 @@
 
 #SignUpButton {
   right: max(21vw, 110px);
+  top: 1.1vh;
 }
 
 #LoginButton {
   right: max(12vw, 10px);
+  top: 1.1vh;
 }
 
 #LogoutButton {
   right: max(3vw, 10px);
+  top: 1.1vh;
 }
 
 #Header img {
@@ -52,7 +55,24 @@
 }
 
 .indicators p {
-  display: inline-block;
+  position: absolute;
+  display: inline;
+  margin-right: 15px;
+}
+
+#firstIndicator {
+  left: 40vh;
+  top: 1.1vh;
+}
+
+#secondIndicator {
+  left: 65vh;
+  top: 1.1vh;
+}
+
+#thirdIndicator {
+  left: 90vh;
+  top: 1.1vh;
 }
 
 /* options */

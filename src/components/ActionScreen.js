@@ -5,7 +5,6 @@ const ActionScreen = () => {
   return (
     <div id = 'ActionScreen'>
       <img src = {DefaultCat} alt = 'Funny cat'/>
-      this is action screen
     </div>
   )
 }

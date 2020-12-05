@@ -18,11 +18,11 @@ const Header = () => {
       <div id="HeaderText">
         <b>Hubby the Cat</b>
       </div>
-      {/* <div class="indicators">
+      <div class="indicators">
         <p id="firstIndicator">Hunger Level 85%</p>
         <p id="secondIndicator">Happiness Level 85%</p>
         <p id="thirdIndicator">Hygiene Level 85%</p>
-      </div> */}
+      </div>
       <button
         onClick={() => console.log("...")}
         className="HeaderButton"

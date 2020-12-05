@@ -1,12 +1,13 @@
- /* font */
- @font-face {
-  font-family: 'Montserrat';
-  src: local ('Montserrat-Black'), url(./fonts/Montserrat/Montserrat-Black.ttf) format ('truetype');
+/* font */
+@font-face {
+  font-family: "Montserrat";
+  src: local ("Montserrat-Black"),
+    url(./fonts/Montserrat/Montserrat-Black.ttf) format ("truetype");
 }
 
 /* header */
 
-#HeaderText{
+#HeaderText {
   display: inline;
   position: absolute;
   top: 50%;
@@ -21,33 +22,37 @@
 
 .HeaderButton {
   position: absolute;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 3px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(100, 81, 81, 0.25);
   border-radius: 31px;
   height: 70%;
+  width: 7.5%;
   margin-top: 8px;
 }
 
 #SignUpButton {
-  right: max(17vw, 110px);
+  right: max(21vw, 110px);
 }
 
 #LoginButton {
-  right: max(10vw, 10px);
+  right: max(12vw, 10px);
 }
 
 #LogoutButton {
   right: max(3vw, 10px);
 }
 
-
-#Header img{
+#Header img {
   max-width: 100%;
   max-height: 100%;
   margin-left: max(2vw, 30px);
   margin-right: max(2vw, 30px);
+}
+
+.indicators p {
+  display: inline-block;
 }
 
 /* options */
@@ -57,40 +62,38 @@
   height: 35%;
 }
 
-
- /* main menu */
+/* main menu */
 
 #MainMenu {
   background-color: rgba(255, 255, 255, 1);
   width: 75%;
 }
 
-
 .MainMenuButton {
   height: 15vh;
   margin-top: 6vh;
   margin-left: 1vw;
   width: 25vw;
-  background: #FFFFFF;
+  background: #ffffff;
   border: 3px solid #000000;
   box-sizing: border-box;
   border-radius: 172px;
 }
 
-
-#CatRoom:hover{
+#CatRoom:hover {
   background-color: rgba(255, 104, 104, 0.5);
 }
 
-#Achievements:hover{
+#Achievements:hover {
   background-color: rgba(252, 255, 104, 0.5);
 }
 
-#Diary:hover{
-  background-color: rgba(168, 255, 255, 0.5);;
+#Diary:hover {
+  background-color: rgba(168, 255, 255, 0.5);
 }
-#Help:hover{
-  background-color: rgba(203, 175, 249, 0.5);;
+
+#Help:hover {
+  background-color: rgba(203, 175, 249, 0.5);
 }
 
 /* action screen */
@@ -99,8 +102,6 @@
   width: 100%;
   height: 100%;
 }
-
-
 
 /* wrappers */
 
@@ -119,10 +120,10 @@
   width: 100%;
 }
 
-
 /* html tags*/
 
-body,html {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: Montserrat;
@@ -133,5 +134,3 @@ button {
   font-family: Montserrat;
   font-size: 2vh;
 }
-
-

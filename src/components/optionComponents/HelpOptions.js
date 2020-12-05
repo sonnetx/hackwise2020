@@ -3,13 +3,22 @@ import React from 'react'
 const CatsRoomOptions = () => {
   return (
     <div id = 'Help_Options'>
-        <h3>Help Options</h3>
-        <button onClick = {() => console.log("This option is responsible for showing how to use the cat screen")}>
+        <div>
+        <button
+        className = 'OptionsButton'
+        id = 'PinkOptionButton'
+        onClick = {() => console.log("This option is responsible for showing how to use the cat screen")}>
           Cat room
         </button>
-        <button onClick = {() => console.log("This option is responsible for showing how to use the diary on the action screen")}>
+        </div>
+        <div>
+        <button
+        className = 'OptionsButton'
+        id = 'PurpleOptionButton'
+         onClick = {() => console.log("This option is responsible for showing how to use the diary on the action screen")}>
           Diary
         </button>
+        </div>
     </div>
   )
 }

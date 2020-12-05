@@ -20,35 +20,34 @@ const MainMenu = () => {
 
   return (
     <div id = 'MainMenu'>
-      <button
-      onClick = {handleCatClick}
-      className = 'MainMenuButton'
-      id = 'CatRoom'
-      >
-        Cat's room
-      </button>
-      <button
-      onClick = {handleDiaryClick}
-      className = 'MainMenuButton'
-      id = 'Diary'
-      >
-        Write something in a diary
-      </button>
-      <button
-      onClick = {handleAchievementsClick}
-      className = 'MainMenuButton'
-      id = 'Achievements'
-      >
-        Achievements
-      </button>
-      <button
-      onClick = {handleHelpClick}
-      className = 'MainMenuButton'
-      id = 'Help'
-      >
-        Help
-      </button>
-
+        <button
+        onClick = {handleCatClick}
+        className = 'MainMenuButton'
+        id = 'CatRoom'
+        >
+          Cat's room
+        </button>
+        <button
+        onClick = {handleDiaryClick}
+        className = 'MainMenuButton'
+        id = 'Diary'
+        >
+          Write something in a diary
+        </button>
+        <button
+        onClick = {handleAchievementsClick}
+        className = 'MainMenuButton'
+        id = 'Achievements'
+        >
+          Achievements
+        </button>
+        <button
+        onClick = {handleHelpClick}
+        className = 'MainMenuButton'
+        id = 'Help'
+        >
+          Help
+        </button>
     </div>
   )
 }

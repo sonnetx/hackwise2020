@@ -26,19 +26,20 @@
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(100, 81, 81, 0.25);
   border-radius: 31px;
-  height: 90%;
+  height: 70%;
+  margin-top: 8px;
 }
 
 #SignUpButton {
-  right: max(9vw, 110px);
+  right: max(17vw, 110px);
 }
 
 #LoginButton {
-  right: max(1vw, 10px);
+  right: max(10vw, 10px);
 }
 
 #LogoutButton {
-  right: max(1vw, 10px);
+  right: max(3vw, 10px);
 }
 
 
@@ -61,13 +62,13 @@
 
 #MainMenu {
   background-color: rgba(255, 255, 255, 1);
-  width: 100%;
+  width: 75%;
 }
 
 
 .MainMenuButton {
-  height: 20vh;
-  margin-top: 1vh;
+  height: 15vh;
+  margin-top: 6vh;
   margin-left: 1vw;
   width: 25vw;
   background: #FFFFFF;
@@ -125,12 +126,12 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: Montserrat;
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 button {
   font-family: Montserrat;
-  font-size: 3vh;
+  font-size: 2vh;
 }
 
 

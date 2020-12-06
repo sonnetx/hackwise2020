@@ -81,9 +81,10 @@ const ActionScreen = ({actionScreenView}) => {
   ? defineView(actionScreenView)
   : <img src = {DefaultCat} id = 'CatGif' alt = "Cat" />
   return (
-      <div id = 'ActionScreen'>
-        {content}
-      </div>
+
+    <div id = 'ActionScreen'>
+      <img src = {DefaultCat} alt = 'Funny cat'/>
+    </div>
   )
 }
 

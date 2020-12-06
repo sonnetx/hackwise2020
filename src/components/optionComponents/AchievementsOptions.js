@@ -1,8 +1,9 @@
 import React from 'react'
 
-const AchiemeventsOptions = () => {
+const AchiemeventsOptions = ({happiness}) => {
   return (
     <div id = 'Achiemevents_Options'>
+      Happiness level: {happiness}
     </div>
   )
 }

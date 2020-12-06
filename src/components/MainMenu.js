@@ -22,14 +22,14 @@ const MainMenu = ({
         className = 'MainMenuButton'
         id = 'Diary'
         >
-          Write something in a diary
+          Write something in a diary (WIP)
         </button>
         <button
         onClick = {handleAchievementsClick}
         className = 'MainMenuButton'
         id = 'Achievements'
         >
-          Achievements
+          Achievements (WIP)
         </button>
         <button
         onClick = {handleHelpClick}

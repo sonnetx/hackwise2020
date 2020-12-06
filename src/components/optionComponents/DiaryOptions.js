@@ -1,11 +1,11 @@
 import React from 'react'
 
-const CatsRoomOptions = () => {
+const DiaryOptions = ({handleNewEntry, handleViewEntries, handleSaveCurrentEntry}) => {
   return (
     <div id = 'Diary_options'>
         <div>
           <button
-            onClick = {() => console.log("This option is responsible for creating a entry area on the action screen")}
+            onClick = {handleNewEntry}
             className = 'OptionsButton'
             id = 'PinkOptionButton'
           >
@@ -16,7 +16,7 @@ const CatsRoomOptions = () => {
           <button
           className = 'OptionsButton'
           id = 'PurpleOptionButton'
-          onClick = {() => console.log("This option is responsible for listing past entries on the action screen")}>
+          onClick = {handleViewEntries}>
             View old entries
           </button>
         </div>
@@ -24,7 +24,7 @@ const CatsRoomOptions = () => {
           <button
           id = 'GreenOptionButton'
           className = 'OptionsButton'
-          onClick = {() => console.log("This option is responsible for saving the current entry on the screen")}>
+          onClick = {handleSaveCurrentEntry}>
             Save the current entry
           </button>
         </div>
@@ -32,4 +32,4 @@ const CatsRoomOptions = () => {
   )
 }
 
-export default CatsRoomOptions
+export default DiaryOptions

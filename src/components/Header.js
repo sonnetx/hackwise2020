@@ -28,7 +28,7 @@ const Header = () => {
         className="HeaderButton"
         id="SignUpButton"
       >
-        Sign up
+        Sign up (WIP)
       </button>
 
       <button
@@ -36,7 +36,7 @@ const Header = () => {
         className="HeaderButton"
         id="LogoutButton"
       >
-        Logout
+        Logout (WIP)
       </button>
 
       <button
@@ -44,7 +44,7 @@ const Header = () => {
         className="HeaderButton"
         id="LoginButton"
       >
-        Login
+        Login (WIP)
       </button>
     </div>
   );

@@ -1,13 +1,13 @@
 import React from 'react'
 
-const CatsRoomOptions = () => {
+const HelpOptions = ({handleHelpCat, handleHelpDiary}) => {
   return (
     <div id = 'Help_Options'>
         <div>
         <button
         className = 'OptionsButton'
         id = 'PinkOptionButton'
-        onClick = {() => console.log("This option is responsible for showing how to use the cat screen")}>
+        onClick = {handleHelpCat}>
           Cat room
         </button>
         </div>
@@ -15,7 +15,7 @@ const CatsRoomOptions = () => {
         <button
         className = 'OptionsButton'
         id = 'PurpleOptionButton'
-         onClick = {() => console.log("This option is responsible for showing how to use the diary on the action screen")}>
+         onClick = {handleHelpDiary}>
           Diary
         </button>
         </div>
@@ -23,4 +23,4 @@ const CatsRoomOptions = () => {
   )
 }
 
-export default CatsRoomOptions
+export default HelpOptions

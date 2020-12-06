@@ -1,13 +1,13 @@
 import React from 'react'
 
-const CatsRoomOptions = () => {
+const CatsRoomOptions = ({handlePet, handleFeed, handlePlay}) => {
   return (
     <div id = 'Cat_room_options'>
         <div>
         <button
         className = 'OptionsButton'
         id = 'PinkOptionButton'
-        onClick = {() => console.log("This option is responsible for petting the cat on the action screen")}>
+        onClick = {handlePet}>
           Pet the cat
         </button>
         </div>
@@ -15,7 +15,7 @@ const CatsRoomOptions = () => {
         <button
         className = 'OptionsButton'
         id = 'PurpleOptionButton'
-        onClick = {() => console.log("This option is responsible for feeding the cat on the action screen")}>
+        onClick = {handleFeed}>
           Feed the cat
         </button>
         </div>
@@ -23,7 +23,7 @@ const CatsRoomOptions = () => {
         <button
         className = 'OptionsButton'
         id = 'GreenOptionButton'
-        onClick = {() => console.log("This option is responsible for playing with the cat on the action screen")}>
+        onClick = {handlePlay}>
           Play with the cat
         </button>
         </div>

@@ -83,9 +83,9 @@ const ActionScreen = ({actionScreenView}) => {
   return (
 
     <div id = 'ActionScreen'>
-      <img src = {DefaultCat} alt = 'Funny cat'/>
+      {content}
     </div>
-  )
+)
 }
 
 export default ActionScreen
